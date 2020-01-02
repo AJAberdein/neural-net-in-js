@@ -1,7 +1,12 @@
 body {
     font-family: Helvetica, sans-serif;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 160px;
+}
+
+h3,
+p {
+    font-size: 12px;
 }
 
 h1 {

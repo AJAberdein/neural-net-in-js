@@ -6,9 +6,9 @@ document.getElementById("nnGraph").style.height = `${AXIS_LEN}px`;
 drawPoint = (input, color) => {
     point = { x: input[0], y: input[1] };
     let pt = document.createElement("div");
-    pt.style.width = "10px";
-    pt.style.height = "10px";
-    pt.style.borderRadius = "10px";
+    pt.style.width = "6px";
+    pt.style.height = "6px";
+    pt.style.borderRadius = "6px";
     pt.style.background = color;
     pt.style.position = "absolute";
     pt.style.left = `${point.x}px`;
