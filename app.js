@@ -1,4 +1,4 @@
-AXIS_LEN = 600;
+AXIS_LEN = 400;
 
 document.getElementById("nnGraph").style.width = `${AXIS_LEN}px`;
 document.getElementById("nnGraph").style.height = `${AXIS_LEN}px`;
